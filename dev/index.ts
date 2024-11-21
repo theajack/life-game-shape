@@ -3,8 +3,8 @@
  * @Date: 2024-08-12 17:51:34
  * @Description: Coding something
  */
-
-import {getShapeNameList, parseShape, findShapeWithName, getShapeList} from '../src';
+// import {getShapeNameList, parseShape, findShapeWithName, getShapeList} from '../src';
+import {getShapeNameList, parseShape, findShapeWithName, getShapeList} from '../npm';
 
 
 const names = getShapeNameList();

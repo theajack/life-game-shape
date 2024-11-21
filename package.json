@@ -5,16 +5,16 @@
         "fileName": "life-game-shape",
         "publish": {
             "name": "life-game-shape",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "description": "life-game-shape",
             "repository": "https://github.com/theajack/life-game-shape",
             "keywords": [],
             "author": "theajack",
             "license": "MIT",
             "bugs": {
-                "url": ""
+                "url": "https://github.com/theajack/life-game-shape/issues"
             },
-            "homepage": "",
+            "homepage": "https://theajack.github.io/life-game",
             "publishConfig": {
                 "registry": "https://registry.npmjs.org/",
                 "tag": "latest"

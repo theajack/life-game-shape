@@ -46,6 +46,8 @@ export function findShapeWithName (name: string): {map: string, width: number, h
     if (name === SinglePoint) {
         return SinglePointShape;
     }
-    const [ kind, key ] = name.split('-');
+    const index = name.indexOf('-');
+    const kind = name.substring(0, index);
+    const key = name.substring(index + 1);
     return data[kind].find(item => item.name === key);
 }
